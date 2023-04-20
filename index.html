@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en" class="theme-default typo-default">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="description" content="" />
+		<link rel="icon" href="./favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta http-equiv="content-security-policy" content="">
+		<link href="./_app/immutable/assets/_page.1ceb081a.css" rel="stylesheet">
+		<link href="./_app/immutable/assets/codemirror.30d9db74.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.807ee01d.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.184aa9c5.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.44e9bdf6.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.5f571420.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.84522395.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/preload-helper.41c905a7.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/layout.svelte.fdc0b079.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/_page.svelte.52b42ce0.js">
+	</head>
+	<body>
+		<div id="svelte">
+
+
+<main class="svelte-15c3tr0">
+
+<div class="container svelte-r9jwya toggleable"><div class="viewport svelte-r9jwya"><div class="container svelte-j2houq"><div class="pane svelte-j2houq" style="width: 50%;"><section slot="a"><div class="component-selector svelte-1fyxfyn">
+</div>
+				<div class="editor-wrapper svelte-3wb2bm"><div class="editor notranslate svelte-3wb2bm" translate="no"><div class="codemirror-container svelte-r494w7"><textarea readonly class="svelte-r494w7"></textarea>
+
+	<pre style="position: absolute; left: 0; top: 0" class="svelte-r494w7"></pre>
+
+		<div style="position: absolute; width: 100%; bottom: 0"><div class="message info svelte-1hyux76">loading editor...
+</div></div>
+</div></div>
+
+	<div class="info svelte-3wb2bm"></div>
+</div></section></div>
+
+	<div class="pane svelte-j2houq" style="width: 50%;"><section slot="b" style="height: 100%;"><div class="view-toggle svelte-1xtwuq4"><button class="svelte-1xtwuq4 active">Result</button>
+		<button class="svelte-1xtwuq4">JS output</button>
+		<button class="svelte-1xtwuq4">CSS output</button>
+		<button class="svelte-1xtwuq4">AST output</button></div>
+
+
+<div class="tab-content svelte-1xtwuq4 visible"><div class="iframe-container svelte-ttquqz"><div class="container svelte-j2houq"><div class="pane svelte-j2houq" style="height: 100%;"><section slot="a" class="svelte-s37781"><div slot="main"><iframe title="Result" sandbox="allow-popups-to-escape-sandbox allow-scripts allow-popups allow-forms allow-pointer-lock allow-top-navigation allow-modals " class="svelte-ttquqz" srcdoc=""></iframe></div></section></div>
+
+	<div class="pane svelte-j2houq" style="height: 0%;"><section slot="b" class="svelte-s37781"><div class="panel-header svelte-s37781"><h3 class="svelte-s37781">Console</h3>
+			<div slot="panel-header"><button class="svelte-ttquqz">
+				Clear
+			</button></div></div>
+
+		<div class="panel-body svelte-s37781"><section slot="panel-body"><div class="container"></div></section></div></section></div>
+
+	<div class="vertical divider svelte-j2houq" style="top: calc(100% - 8px)"></div></div>
+
+
+
+	<div class="overlay svelte-ttquqz"><div class="message info svelte-1hyux76 truncate">loading Svelte compiler...
+</div></div>
+</div></div>
+
+
+<div class="tab-content svelte-1xtwuq4"><div class="container svelte-j2houq"><div class="pane svelte-j2houq" style="height: 67%;"><section slot="a" class="svelte-s37781"><div slot="main" class="svelte-1xtwuq4"><div class="codemirror-container svelte-r494w7"><textarea readonly class="svelte-r494w7"></textarea>
+
+	<pre style="position: absolute; left: 0; top: 0" class="svelte-r494w7"></pre>
+
+		<div style="position: absolute; width: 100%; bottom: 0"><div class="message info svelte-1hyux76">loading editor...
+</div></div>
+</div></div></section></div>
+
+	<div class="pane svelte-j2houq" style="height: 33%;"><section slot="b" class="svelte-s37781"><div class="panel-header svelte-s37781"><h3 class="svelte-s37781">Compiler options</h3>
+			</div>
+
+		<div class="panel-body svelte-s37781"><div slot="panel-body" class="svelte-1xtwuq4">
+
+
+<div class="options svelte-1s7ndru">result = svelte.compile(source, {
+	<div class="option svelte-1s7ndru"><span class="key svelte-1s7ndru">generate:</span>
+
+		<input id="dom-input" type="radio" value="dom" class="svelte-1s7ndru" checked>
+		<label for="dom-input" class="svelte-1s7ndru"><span class="string svelte-1s7ndru">&quot;dom&quot;</span></label>
+
+		<input id="ssr-input" type="radio" value="ssr" class="svelte-1s7ndru">
+		<label for="ssr-input" class="svelte-1s7ndru"><span class="string svelte-1s7ndru">&quot;ssr&quot;</span>,</label></div>
+
+	<label class="option svelte-1s7ndru"><span class="key svelte-1s7ndru">dev:</span>
+		<input type="checkbox" class="svelte-1ja98dc">
+		<span class="boolean svelte-1s7ndru">false</span>,
+	</label>
+
+	<div class="option svelte-1s7ndru"><span class="key svelte-1s7ndru">css:</span>
+
+		<input id="injected-input" type="radio" value="injected" class="svelte-1s7ndru" checked>
+		<label for="injected-input" class="svelte-1s7ndru"><span class="string svelte-1s7ndru">&quot;injected&quot;</span></label>
+
+		<input id="external-input" type="radio" value="external" class="svelte-1s7ndru">
+		<label for="external-input" class="svelte-1s7ndru"><span class="string svelte-1s7ndru">&quot;external&quot;</span></label>
+
+		<input id="none-input" type="radio" value="none" class="svelte-1s7ndru">
+		<label for="none-input" class="svelte-1s7ndru"><span class="string svelte-1s7ndru">&quot;none&quot;</span>,</label></div>
+
+	<label class="option svelte-1s7ndru"><span class="key svelte-1s7ndru">hydratable:</span>
+		<input type="checkbox" class="svelte-1ja98dc">
+		<span class="boolean svelte-1s7ndru">false</span>,
+	</label>
+
+	<label class="option svelte-1s7ndru"><span class="key svelte-1s7ndru">customElement:</span>
+		<input type="checkbox" class="svelte-1ja98dc">
+		<span class="boolean svelte-1s7ndru">false</span>,
+	</label>
+
+	<label class="option svelte-1s7ndru"><span class="key svelte-1s7ndru">immutable:</span>
+		<input type="checkbox" class="svelte-1ja98dc">
+		<span class="boolean svelte-1s7ndru">false</span>,
+	</label>
+
+	<label class="option svelte-1s7ndru"><span class="key svelte-1s7ndru">legacy:</span>
+		<input type="checkbox" class="svelte-1ja98dc">
+		<span class="boolean svelte-1s7ndru">false</span></label>
+	});
+</div></div></div></section></div>
+
+	<div class="vertical divider svelte-j2houq" style="top: calc(67% - 8px)"></div></div>
+
+</div>
+
+
+<div class="tab-content svelte-1xtwuq4"><div class="codemirror-container svelte-r494w7"><textarea readonly class="svelte-r494w7"></textarea>
+
+	<pre style="position: absolute; left: 0; top: 0" class="svelte-r494w7"></pre>
+
+		<div style="position: absolute; width: 100%; bottom: 0"><div class="message info svelte-1hyux76">loading editor...
+</div></div>
+</div></div>
+
+
+<div class="tab-content svelte-1xtwuq4">
+		</div>
+
+
+<div class="tab-content svelte-1xtwuq4"><iframe title="Markdown" srcdoc="" class="svelte-1xtwuq4"></iframe>
+</div></section></div>
+
+	<div class="horizontal divider svelte-j2houq" style="left: calc(50% - 8px)"></div></div>
+
+</div>
+	
+<label class="input-output-toggle svelte-faoqju"><span style="text-align: right" class="svelte-faoqju active">input</span>
+	<input type="checkbox" class="svelte-1ja98dc">
+	<span class="svelte-faoqju">output</span>
+</label>
+</div>
+</main>
+
+
+			
+			<script>
+				{
+					__sveltekit_5y222f = {
+						base: new URL(".", location).pathname.slice(0, -1),
+						env: {}
+					};
+
+					const element = document.currentScript.parentElement;
+
+					const data = [null,{"type":"data","data":null,"uses":{}}];
+
+					Promise.all([
+						import("./_app/immutable/entry/start.807ee01d.js"),
+						import("./_app/immutable/entry/app.84522395.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 2],
+							data,
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>

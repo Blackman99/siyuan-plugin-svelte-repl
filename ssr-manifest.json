@@ -1,0 +1,28 @@
+{
+  "node_modules/.pnpm/@rollup+browser@3.20.6/node_modules/@rollup/browser/dist/es/rollup.browser.js": [
+  ],
+  "node_modules/.pnpm/acorn@8.8.2/node_modules/acorn/dist/acorn.mjs": [
+  ],
+  "node_modules/.pnpm/estree-walker@3.0.3/node_modules/estree-walker/src/index.js": [
+  ],
+  "node_modules/.pnpm/estree-walker@3.0.3/node_modules/estree-walker/src/sync.js": [
+  ],
+  "node_modules/.pnpm/estree-walker@3.0.3/node_modules/estree-walker/src/walker.js": [
+  ],
+  "node_modules/.pnpm/resolve.exports@2.0.2/node_modules/resolve.exports/dist/index.mjs": [
+  ],
+  "node_modules/.pnpm/yootils@0.3.1/node_modules/yootils/src/async/sleep.js": [
+  ],
+  "src/lib/workers/bundler/index.js": [
+  ],
+  "src/lib/workers/bundler/plugins/commonjs.js": [
+  ],
+  "src/lib/workers/bundler/plugins/glsl.js": [
+  ],
+  "src/lib/workers/bundler/plugins/json.js": [
+  ],
+  "src/lib/workers/bundler/plugins/replace.js": [
+  ],
+  "src/lib/workers/compiler/index.js": [
+  ]
+}

@@ -1,0 +1,3 @@
+[submodule "repl"]
+	path = repl
+	url = https://github.com/Blackman99/siyuan-plugin-svelte-repo-source.git
