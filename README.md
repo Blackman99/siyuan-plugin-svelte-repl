@@ -1,3 +1,13 @@
+<p align="center">
+<img src="./logo.svg" width="320px" />
+</p>
+
+<p align="center">
+Svelte REPL in SiYuan
+</p>
+
+[中文](./README_zh_CN.md)
+
 # SiYuan Svelte REPL plugin
 
 ## Introduction
