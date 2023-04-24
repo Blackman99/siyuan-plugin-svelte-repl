@@ -14,6 +14,10 @@ Svelte REPL in SiYuan
 
 Help you embed [Svelte REPL](https://svelte.dev/repl) in [SiYuan](https://github.com/siyuan-note/siyuan)
 
+## How to use
+
+SiYuan -> Bazaar -> Widget -> Svelte REPL -> Install
+
 ## Demonstration
 
 ![siyuan-svelte-repl](https://user-images.githubusercontent.com/41723543/233339458-0a398ffe-ba62-49cb-9353-45015e436587.gif)
