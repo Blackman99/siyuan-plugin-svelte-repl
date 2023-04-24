@@ -17,6 +17,10 @@ SiYuan -> 集市 -> 挂件 -> Svelte REPL -> 安装
 * 保留了 [Svelte REPL](https://svelte.dev/repl) 的完整能力
 * 代码自动保存
 
+## 使用限制
+
+引用了 [unpkg](https://unpkg.com)上的资源，**使用时需联网**
+
 ## LICENSE
 
 [MIT](./LICENSE)

@@ -27,6 +27,10 @@ SiYuan -> Bazaar -> Widget -> Svelte REPL -> Install
 * Preserve full power of [Svelte REPL](https://svelte.dev/repl)
 * Code auto save
 
+## Usage Restriction
+
+Reference modules on [unpkg](https://unpkg.com)，**Network is required**
+
 ## LICENSE
 
 [MIT](./LICENSE)
