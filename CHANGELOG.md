@@ -1,3 +1,7 @@
+## 0.2.0
+
+* Fix auto width broken
+
 ## 0.1.2
 
 * Auto set width along with block width when created
