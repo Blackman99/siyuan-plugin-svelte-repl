@@ -2,5 +2,26 @@
   "name": "Svelte REPL",
   "author": "Dongsheng Zhao",
   "url": "https://github.com/Blackman99/siyuan-plugin-svelte-repl",
-  "version": "0.2.0"
+  "version": "0.2.1",
+  "minAppVersion": "2.8.8",
+  "displayName": {
+    "default": "Svelte REPL",
+    "zh_CN": "Svelte 交互式编辑器"
+  },
+  "description": {
+    "default": "Make it possible to write Svelte demos in SiYuan",
+    "zh_CN": "让在思源中编写 Svelte 示例成为可能"
+  },
+  "readme": {
+    "default": "README.md",
+    "zh_CN": "README_zh_CN.md"
+  },
+  "funding": {
+    "openCollective": "",
+    "patreon": "",
+    "github": "",
+    "custom": [
+      "https://afdian.net/a/dongsheng/plan"
+    ]
+  }
 }
